@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    background-color: black;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #fffdfd;
+  }
+ 
+
+  button {
+    margin-bottom: 10px;
+  }
+
+  #searchInput {
+    margin-right: 100px;
+
+  }

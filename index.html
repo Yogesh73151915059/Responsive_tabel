@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coin Data</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <input type="text" id="searchInput" placeholder="Search by name">
+    <button id="searchButton">Search</button>
+    <button id="sortButton">Sort by Market Cap</button>
+  </div>
+
+  <table id="coinTable">
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>ID</th>
+        <th>Symbol</th>
+        <th>Price</th>
+        <th>Volume</th>
+      </tr>
+    </thead>
+    <tbody id="coinTableBody">
+      <!-- Table rows will be dynamically generated -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
